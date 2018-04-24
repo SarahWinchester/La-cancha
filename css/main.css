@@ -1,0 +1,80 @@
+body {
+  background-color: #000000;
+}
+
+.ballon {
+  background-image: url(https://cdn.dribbble.com/assets/dribbble-ball-dnld-35eba27acd4710f90ea9aa7ad8037fbb19ad997078531844fd34456b4c6551e4.png);
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  border: none;
+}
+
+#ballOne {
+  top: 31%;
+  left: 9%;
+}
+
+#ballTwo {
+  top: 10%;
+  left: 48%;
+}
+
+#ballThree {
+  top: 61%;
+  left: 83%;
+}
+
+#center {
+  border: 3px solid #ffffff;
+  height: 125px;
+  position: absolute;
+  width: 125px;
+}
+
+#center {
+  left: 40%;
+  top: 33%;
+  border-radius: 50%;
+}
+
+div#grass {
+  background-color: #91cb88;
+  height: 400px;
+  width: 700px;
+  position: relative;
+  left: 25%;
+}
+
+div#field {
+  border: 3px solid #ffffff;
+  height: 350px;
+  width: 650px;
+  left: 25px;
+  position: absolute;
+  top: 25px;
+}
+
+div {
+  border: 1px solid #ffffff;
+  height: 100px;
+  width: 70px;
+}
+
+#goalRight {
+  right: 0;
+  border-right: none;
+}
+
+#goalLeft {
+  border-left: none;
+}
+
+.goal {
+  border: 3px solid #ffffff;
+  height: 125px;
+  width: 70px;
+  position: absolute;
+  top: 33%;
+}
